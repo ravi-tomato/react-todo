@@ -1,5 +1,4 @@
-export enum Progress {
-    "Todo",
-    "In Progress",
+export type Progress =
+    "Todo" |
+    "In Progress" |
     "Done"
-}
